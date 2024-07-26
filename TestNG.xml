@@ -1,0 +1,10 @@
+<suite parallel="false" name="assessment">
+ <parameter name="browsername" value="chrome" ></parameter>
+  <test name="RegressionTest" preserve-order="true" >
+    <classes>
+      <class name="tests.HomeTest"/>
+      <class name="tests.AdminTest"/>
+
+    </classes>
+  </test> 
+</suite> 
